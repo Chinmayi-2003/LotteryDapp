@@ -1,0 +1,53 @@
+# Node modules
+node_modules/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Dependency directories
+.DS_Store
+.trash/
+
+# Environment variables
+.env
+.env.*.local
+
+# Build directories
+build/
+dist/
+
+# Coverage reports
+coverage/
+
+# React production build
+*.cache/
+.vscode/
+
+# MacOS system files
+.DS_Store
+
+# Temporary files
+*.tmp
+*.swp
+*.swo
+
+# Truffle-related
+truffle-config.js
+.migrations/
+network-*
+!src/**/*.sol
+
+# IntelliJ IDEA and other IDEs
+.idea/
+*.iml
+
+# OS generated files
+Thumbs.db
+.DS_Store
+
+# Other
+*.out
